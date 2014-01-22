@@ -1,7 +1,7 @@
 <html>
     <head>
   <meta charset="utf-8">
-  <title>jQuery UI Draggable - Default functionality</title>
+  <title>Code In-C-eption Trial</title>
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
@@ -51,7 +51,7 @@
 </head>
 <body>
 <div id="draggable" class="ui-widget-content" style="float:right">
-  <p>Drag me around</p>
+  <p>Drag and Drop Anywhere</p>
 </div>
     <form>
     <label for="userid">Code:</label><br>
