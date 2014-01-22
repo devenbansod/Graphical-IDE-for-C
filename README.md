@@ -1,7 +1,7 @@
 Graphical-IDE-for-C
 ================
 
-Apogee Project
+Project
 
 Abstract
 ==========
