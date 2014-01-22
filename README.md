@@ -1,4 +1,4 @@
-Code-In-C-eption
+Graphical-IDE-for-C
 ================
 
 Apogee Project
@@ -6,7 +6,7 @@ Apogee Project
 Abstract
 ==========
 
-TITLE OF PROJECT: Code In-C-eption 
+TITLE OF PROJECT: Graphical-IDE-for-C
 
 CATEGORY PREFERENCE: Software Design (Application Development) 
 
@@ -17,6 +17,7 @@ IMPLEMENTATION METHODOLOGY: The application will be developed such that the basi
 APPLICATION: The web application shall help new programmers to intuitively understand programming and remove initial apprehension towards code. This can surely prove as an efficient learning tool for learning C.  Similar to an IDE, it will help users avoid common mistakes and follow standard programming conventions. 
 
 JUSTIFY CHOICE OF CATEGORY: This software application will help everyone from novice programmers to software developers. With a wide audience base, this software surely is falls under Application Development. 
+
 BASIC EXPLANATION OF THE PROJECT: The project will consist of the various commands/syntax used in C in the form of jigsaw puzzle pieces. 
 \
 
