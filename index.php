@@ -44,7 +44,7 @@
     // 3. Specify your action, location and Send to the server - Start 
     xhr.open('POST', 'script.php');
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    xhr.send("code=" + code);
+    xhr.send("code=" + encodeURIComponent(code));
     // 3. Specify your action, location and Send to the server - End
 }
 </script>
