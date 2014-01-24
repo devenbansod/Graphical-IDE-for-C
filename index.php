@@ -16,7 +16,10 @@
   </script>
 <script>
     function PostData() {
-    // 1. Create XHR instance - Start
+        document.getElementById('results').value='';
+        var list=document.getElementsByTagName("body")[0];
+        list.style.cursor = 'wait'; 
+       // 1. Create XHR instance - Start
     var xhr;
     if (window.XMLHttpRequest) {
         xhr = new XMLHttpRequest();
@@ -32,8 +35,9 @@
     // 2. Define what to do when XHR feed you the response from the server - Start
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
-            if (xhr.status == 200 && xhr.status < 300) {
+            if (xhr.status === 200 && xhr.status < 300) {
                 document.getElementById('results').value = xhr.responseText;
+                document.body.style.cursor = 'auto';
             }
         }
     }
