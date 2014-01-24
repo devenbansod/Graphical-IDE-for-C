@@ -11,9 +11,9 @@
       passthru("gcc test.c 2>&1");
       system("chmod 777 a.out");
       echo "\n";
-	set_time_limit(1);
+      set_time_limit(5);
       system("./a.out 2>&1");
       unlink("a.out");
       unlink("test.c");    
   }
- ?>
+?>
