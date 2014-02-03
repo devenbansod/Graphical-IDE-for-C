@@ -8,12 +8,12 @@
       $file = fopen("test.c", "w") or die("Unable to Open File");
       system("chmod 777 test.c");
       fwrite($file, $code) or die("Unable to Write the File");
-      passthru("gcc test.c 2>&1");
-      system("chmod 777 a.out");
+      passthru("gcc -Wall -o deven test.c 2>&1");
+      system("chmod 777 deven");
       echo "\n";
-      set_time_limit(5);
-      system("./a.out 2>&1");
-      unlink("a.out");
+      // set_time_limit(1);
+      echo shell_exec("sh dev.sh");
+      unlink("deven");
       unlink("test.c");    
   }
 ?>
