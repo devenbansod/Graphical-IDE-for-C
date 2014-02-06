@@ -10,6 +10,19 @@
   #draggable { width: 150px; height: 150px; padding: 0.5em; }
   </style>
   <script>
+	$(function() {
+
+	// Target all classed with ".lined"	
+	$(".lined").linedtextarea(
+	{selectedLine: 0}
+	);
+
+	// Target a single one
+	$("#mytextarea").linedtextarea();
+
+	});
+  </script>
+  <script>
   $(function() {
     $( "#draggable" ).draggable();
   });
@@ -52,6 +65,8 @@
     // 3. Specify your action, location and Send to the server - End
 }
 </script>
+<script src="jquery-linedtextarea.js"></script>
+	<link href="jquery-linedtextarea.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 <div id="draggable" class="ui-widget-content" style="float:right">
@@ -59,7 +74,8 @@
 </div>
     <form>
     <label for="userid">Code:</label><br>
-    <textarea name ="code" id="code" onblur="" cols ="50" rows="10"></textarea>
+    <textarea class = "lined" name ="code" id="code" onblur="" cols ="50" rows="10"></textarea><br>
+    <p id="waiting"></p>
     <br><label for="userid">Results:</label><br>
     <br><textarea name ="results" id="results" onblur="" cols="50" rows="10"></textarea>
     <br><br><input type="button" value ="Compile and Run" onclick="PostData();" />
