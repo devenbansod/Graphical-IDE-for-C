@@ -318,14 +318,6 @@ heightStyle: "fill"
   </div>
   
   
-  <div id="" class="ui-layout-resizer ui-layout-resizer-north ui-layout-resizer-open ui-layout-resizer-north-open" title="Resize" style="position: absolute; padding: 0px; margin: 0px; font-size: 1px; text-align: left; overflow: hidden; z-index: 2; cursor: n-resize; top: 47px; width: 1314px; height: 6px; left: 0px;" aria-disabled="false">
-    <div id="" class="ui-layout-toggler ui-layout-toggler-north ui-layout-toggler-open ui-layout-toggler-north-open" title="Close" style="position: absolute; display: block; padding: 0px; margin: 0px; overflow: hidden; text-align: center; font-size: 1px; cursor: pointer; z-index: 1; visibility: visible; width: 48px; height: 6px; left: 632px; top: 0px;">
-    </div>
-  </div>
-  <div id="" class="ui-layout-resizer ui-layout-resizer-south ui-layout-resizer-open ui-layout-resizer-south-open" title="Resize" style="position: absolute; padding: 0px; margin: 0px; font-size: 1px; text-align: left; overflow: hidden; z-index: 2; cursor: s-resize; bottom: 40px; width: 1314px; height: 6px; left: 0px;" aria-disabled="false">
-    <div id="" class="ui-layout-toggler ui-layout-toggler-south ui-layout-toggler-open ui-layout-toggler-south-open" title="Close" style="position: absolute; display: block; padding: 0px; margin: 0px; overflow: hidden; text-align: center; font-size: 1px; cursor: pointer; z-index: 1; visibility: visible; width: 48px; height: 6px; left: 632px; top: 0px;">
-    </div>
-  </div>
   <div style="position: absolute; float: left; font-family: &#39;Trebuchet MS&#39;, Verdana, sans-serif; font-size: 12px; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); padding: 8px 3px 3px; border-width: 0px 1px 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; z-index: 999999; width: 144px; display: none; background-position: initial initial; background-repeat: initial initial;">
   
   <ul style="list-style: none; margin: 0px; padding: 0px; overflow-y: auto; overflow-x: hidden; height: 200px;">
@@ -622,5 +614,3 @@ heightStyle: "fill"
   </div>
   </body>
 </html>
-
-

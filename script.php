@@ -10,7 +10,7 @@
       fwrite($file, $code) or die("Unable to Write the File");
       passthru("gcc -Wall -o deven test.c 2>&1");
       system("chmod 777 deven");
-      echo "\n";
+      // echo "\n";
       // set_time_limit(1);
       echo shell_exec("sh dev.sh");
       unlink("deven");
