@@ -1,5 +1,4 @@
-   
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <!-- saved from url=(0049)http://layout.jquery-dev.net/demos/accordion.html -->
 <html xmlns="http://www.w3.org/1999/xhtml" style="overflow: hidden; height: 100%; border: none; padding: 0px; margin: 0px;">
   <head>
@@ -11,7 +10,7 @@
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
   <script type="text/javascript" src="script.js"></script>
-  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" href="style.css">
 <script src="jquery-linedtextarea.js"></script>
   <link href="jquery-linedtextarea.css" type="text/css" rel="stylesheet" />
     
@@ -279,11 +278,7 @@ heightStyle: "fill"
   </h3>
   
   <div class="ui-layout-content" style="position: relative; height: 465px; visibility: visible;">
-      </div>
-      
-      <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-accordion2-header-3" aria-controls="ui-accordion-accordion2-panel-3" aria-selected="false" tabindex="-1">
-        <span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e">
-        </span>
+      <!-- <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-accordion2-header-3" aria-controls="ui-accordion-accordion2-panel-3" aria-selected="false" tabindex="-1"> -->
         <!-- <a href="http://layout.jquery-dev.net/demos/accordion.html#">
           Section 4
         </a>
@@ -303,14 +298,15 @@ heightStyle: "fill"
         </p>
       </div>
 
-       --><form>
-    <textarea class = "lined" name ="code" id="code" onblur="" placeholder="Your code goes here" cols ="30" rows="19"></textarea>
-        <input type="button" value ="Compile and Run" onclick="PostData();" />
+       -->
+       <form>
+    <textarea class = "lined" name ="code" id="code" onblur="" rows="19" placeholder="Your code goes here" ></textarea>
+    <!-- <textarea class = "lined" name ="code" id="code" onblur="" placeholder="Your code goes here" ></textarea> -->
+        <input type="button" class="fullwidth" value ="Compile and Run" onclick="PostData();" />
     <p id="waiting"></p>
-    <textarea name ="results" id="results" onblur="" placeholder="Your output will be displayed here" cols="30" rows="3"></textarea>
+    <textarea name ="results" id="results" onblur="" rows="10" placeholder="Your output will be displayed here" cols="30" rows="3"></textarea>
 
 </form>
-    </div>
   </div>
   
   <h4 class="ui-widget-content ui-state-hover">
