@@ -35,7 +35,7 @@
       
   }
                      );
-$(function() {
+/*$(function() {
 
 	// Target all classed with ".lined"	
 	$(".lined").linedtextarea(
@@ -45,10 +45,7 @@ $(function() {
 	// Target a single one
 	$("#mytextarea").linedtextarea();
 
-	});
-  $(function() {
-    $( "#draggable" ).draggable();
-  });
+	});*/
 
   function PostData() {
         document.getElementById('results').value='';
