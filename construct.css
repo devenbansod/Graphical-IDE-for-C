@@ -1,0 +1,44 @@
+/*css*/
+.main-workspace {
+	/*height: inherit;*/
+	/*width: 100%;*/
+	border: 1px solid black;
+}
+
+.varHold {
+	/*margin: 20px 0 0 20px;*/
+	width: 0px;
+	height: 0px;
+	border-top: 60px solid cyan;
+	border-bottom: 60px solid cyan;
+}
+
+.varHoldLt {
+	border-left: 60px solid transparent;
+	border-right: 60px solid cyan;
+}
+
+.varHoldRt {
+	border-right: 60px solid transparent;
+	border-left: 60px solid cyan;
+}
+
+#talkbubble {
+	width: 120px;
+	height: 80px;
+	background: red;
+	position: relative;
+}
+
+#talkbubble:before {
+	content: "";
+	position: absolute;
+	right: 100%;
+	left: 10%;
+	top: 80px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-top: 20px solid red;
+	border-right: 10px solid transparent;
+}
