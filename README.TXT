@@ -1,3 +1,8 @@
+This project has been developed by forking and extending the open-source Flowchart making tool and diagram editor *Diagramo*.
+
+
+Description fof Diagramo
+============================
 Diagramo is HTML5 based diagram editor.
 
 It was basically made so that it can be installed on a server but can run locally
