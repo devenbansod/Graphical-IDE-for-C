@@ -29,3 +29,5 @@ LAMP installer
 --------------
 To be able to run it you have to place it on a server with Apache 2.x and PHP 5.3 (or greater).
 It will not work with versions prior to PHP 5.3
+
+Join the chat at https://gitter.im/devenbansod/Graphical-IDE-for-C
